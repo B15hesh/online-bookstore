@@ -10,7 +10,7 @@ import Checkout from './components/Checkout';
 
 function App() {
   return (
-    <BrowserRouter base="/online-bookstore/">
+    <BrowserRouter base="/">
       <Header />
       <Routes>
         <Route index element={<Home />} />
